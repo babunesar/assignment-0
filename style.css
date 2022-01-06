@@ -61,3 +61,30 @@ p {
 .focusd-img img {
     max-width: 100%;
 }
+
+.mission {
+    padding: 50px 100px;
+}
+.mission h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: var(--popins-family);
+}
+.mission-area {
+    width: 33.3%;
+    padding: 20px;
+    min-height: 350px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.mission-area h3 {
+    font-size: 24px;
+    font-family: var(--popins-family);
+}
+.mission-area p {
+    font-size: 16px;
+    font-family: var(--popins-family);
+}
+.mission-area img {
+    width: 50%;
+}
