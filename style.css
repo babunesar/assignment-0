@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+:root {
+    --lobster-family: 'Lobster', cursive;
+    --popins-family: 'Poppins', sans-serif;
+    --yesve-famiy: 'Yeseva One', cursive;
+    --btn-color: #FF5959;
+}
+p {
+    color: #3E3E3E;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.title-color {
+    color: #FFAD5A;
+}
+
+.bob {
+    height: 108px;
+    width: 15px;
+    position: relative;
+}
+.borLeft {
+    border-left: 4px solid var(--btn-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.focusd-conten {
+    width: 60%;
+    padding-left: 100px;
+    margin-top: 12%;
+}
+.focusd-conten h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: var(--yesve-famiy);
+    font-weight: 400;
+}
+.focusd-conten p {
+    font-size: 18px;
+    font-family: var(--popins-family);
+    padding-right: 19%;
+}
+.primary-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--btn-color);
+    padding: 12px 35px;
+    font-family: 'Poppins';
+    display: inline-block;
+    border-radius: 5px;
+}
+.focusd-img {
+    width: 40%;
+    padding-right: 100px;
+}
+.focusd-img img {
+    max-width: 100%;
+}
