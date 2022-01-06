@@ -63,7 +63,7 @@ p {
 }
 
 .mission {
-    padding: 50px 100px;
+    padding: 0 100px 50px;
 }
 .mission h2 {
     text-align: center;
@@ -87,4 +87,48 @@ p {
 }
 .mission-area img {
     width: 50%;
+}
+
+.develop {
+    padding: 50px 100px;
+}
+.develop-img {
+    width: 40%;
+}
+.develop-img img {
+    max-width: 100%;
+}
+.develop-content {
+    width: 60%;
+    margin-left: 60px;
+}
+.develop-content h2 {
+    font-size: 36px;
+    font-family: var(--popins-family);
+}
+.develop-content p {
+    font-family: var(--popins-family);
+    font-size: 18px;
+}
+
+.global {
+    padding: 50px 100px;
+}
+.global-content {
+    width: 60%;
+    margin-right: 60px;
+}
+.global-content h2 {
+    font-size: 36px;
+    font-family: var(--popins-family);
+}
+.global-content p {
+    font-family: var(--popins-family);
+    font-size: 18px;
+}
+.global-img {
+    width: 40%;
+}
+.global-img img {
+    width: 100%;
 }
