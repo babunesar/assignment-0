@@ -6,6 +6,9 @@
     --yesve-famiy: 'Yeseva One', cursive;
     --btn-color: #FF5959;
 }
+body {
+    margin: 0;
+}
 p {
     color: #3E3E3E;
 }
@@ -131,4 +134,59 @@ p {
 }
 .global-img img {
     width: 100%;
+}
+
+.blog {
+    padding: 0 100px 80px;
+}
+.blog h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: var(--popins-family);
+}
+.blog-item {
+    width: 33.3%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.blog-item h3 {
+    font-size: 24px;
+    font-family: var(--popins-family);
+    margin-top: 15px;
+}
+.blog-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.blog-time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.blog-time small {
+    font-family: var(--popins-family);
+    font-weight: 600;
+}
+.dev {
+    color: var(--btn-color);
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #D9DBE1;
+    padding: 25px 0;
+}
+footer h2 {
+    font-family: var(--lobster-family);
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+footer p {
+    font-family: var(--popins-family);
+    font-size: 14px;
+    color: #D9DBE1;
 }
